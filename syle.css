@@ -1,0 +1,40 @@
+.marquee {
+height: 50px;
+overflow: hidden;
+position: relative;
+background: #fefefe;
+color:coral;
+border: 1px solid #4a4a4a;
+        }
+
+body{
+  text-align:center;
+  background:linear-gradient(
+  #ffe6e6 0%,#ff0000 100%); 
+}
+
+.movie_head {
+    font-size: 20px;
+    padding: 6px 22px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    display: inline-block;
+    
+}
+
+.movie_text span {
+    color: #ff7700;
+}
+
+movie_head i {
+    float: right;
+}
+
+.football{
+padding-bottom: 10px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
